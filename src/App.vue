@@ -1,6 +1,6 @@
 <template>
  
- <CaracolaMagica/>
+<PokemonPagesVue></PokemonPagesVue>
   
   
 </template>
@@ -10,17 +10,18 @@ import HelloWorld from './components/HelloWorld.vue'
 import Contador from './components/Contador.vue'
 import CaracolaMagica from './components/CaracolaMagica.vue'
 
+import PokemonPagesVue from './modules/pokemon/pages/PokemonPages.vue'
+
 export default {
   name: 'App',
   components: {
-    Contador,
-    CaracolaMagica
+    PokemonPagesVue
   },
   
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

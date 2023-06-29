@@ -53,7 +53,7 @@ export default {
 };
 </script>
   
-  <style>
+  <style scoped>
     button{
         background-color: #64B687;
         border-radius: 5px;
